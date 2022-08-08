@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LZ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="hea">
+                <div class="box">
+                    <ul class="menu1">
+                        <li><a href="index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
+                        <li><a href="gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="sanpham.html">Sản phẩm</a></li>
+                        <li><a href="">Tin tức</a></li>
+                    </ul>
+                    <ul class="menu2">
+                        <li><a href="accout.html"> <i class="fa-solid fa-user"></i></a></li>
+                        <li><a href="dathang.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-bell"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <section class="hinh">
+            </section>
+            <div class="slideshow">
+                <div id="slide">
+                    <img id="hinh" src="image/sl1.JPG">
+                </div>
+                <script>
+
+                    var index = 1;
+                    function chuyen() {
+                        var arr = [
+                            'image/sl1.jpg',
+                            'image/sl2.jpg',
+                            'image/sl3.jpg',
+                            'image/sl4.jpg',
+                        ];
+                        document.getElementById('hinh').src = arr[index]
+                        index++;
+                        if (index == 4) {
+                            index = 1;
+                        }
+                    }
+                    setInterval(chuyen, 1200);
+
+                </script>
+            </div>
+            <div class="thanhngang">
+                <h2>Sản phẩm HOT</h2>
+                <div class="sptb">
+                    <div class="sptrungbay1">
+                        <img src="image/ao1.jpg" alt="">
+                        <p><a href="#">iPhone 13 Pro Max 128GB</a></p>
+                        <p>30.490.000 đ</p>
+                    </div>
+                    <div class="sptrungbay2">
+                        <img src="image/polo.jpg" alt="">
+                        <p><a href="#">Samsung Galaxy S20 FE 256GB</a></p>
+                        <p>10.990.000 đ</p>
+                    </div>
+                    <div class="sptrungbay3">
+                        <img src="image/quan1sp.jpg" alt="">
+                        <p><a href="#">Xiaomi Redmi Note 11 4GB-128GB</a></p>
+                        <p>4.790.000 đ</p>
+                    </div>
+                    <div class="sptrungbay4">
+                        <img src="image/aosomi.jpg" alt="">
+                        <p><a href="#">Oppo A95 8GB-128BG</a></p>
+                        <p>6.490.000 đ</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="lon">
+                <div class="sp">
+                    <h2>Điện thoại nổi bật</h2>
+                    <div class="den4">
+                        <div class="spham1">
+                            <img src="image/polo1sp.jpg">
+                            <h4>iPhone 11 64GB <br>
+                                <p>250.000 đ</p>
+                                <button>Mua ngay</button>
+                            </h4>
+                        </div>
+
+                        <div class="spham2">
+                            <img src="image/phong1sp.jpg">
+                            <h4>OPPO Reno7 Z 5G 8GB - 128GB <br>
+                                <p>180.000 đ</p>
+                                <button>Mua ngay</button>
+                            </h4>
+                        </div>
+
+                        <div class="spham3">
+                            <img src="image/k1.jpg">
+                            <h4>Samsung Galaxy S22 Ultra 5G 128GB <br>
+                                <p>150.000 đ</p>
+                                <button>Mua ngay</button>
+                            </h4>
+                        </div>
+
+                        <div class="spham4">
+                            <img src="image/jean1sp.jpg">
+                            <h4>Xiaomi Redmi Note 11S 6GB - 128GB <br>
+                                <p>399.000 đ</p>
+                                <button>Mua ngay</button>
+                            </h4>
+                        </div>
+                    </div>
+
+
+                    <div class="den8">
+                        <div class="spham5">
+                            <img src="image/short2.jpg">
+                            <h4>Nokia G21 6GB-128GB <br>
+                                <p>199.000 đ</p>
+                                <button>Mua ngay</button>
+                            </h4>
+                        </div>
+
+                        <div class="spham6">
+                            <img src="image/somi2sp.jpg">
+                            <h4>Samsung Galaxy A53 5G 256GB <br>
+                                <p>270.000 đ</p>
+                                <button>Mua ngay</button>
+                            </h4>
+                        </div>
+                        <div class="spham7">
+                            <img src="image/polo3sp.jpg">
+                            <h4>iPhone 13 128GB <br>
+                                <p>200.000 đ</p>
+                                <button>Mua ngay</button>
+                            </h4>
+                        </div>
+
+                        <div class="spham8">
+                            <img src="image/k3.jpg">
+                            <h4>Vivo Y21 4GB+1GB - 64GB <br>
+                                <p>210.000 đ</p>
+                                <button>Mua ngay</button>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tintuc">
+                    <div class="baivietmoi">
+                        <h2>Bài viết mới</h2>
+                        <div class="bv1">
+                            <div class="ha">
+                                <img src="image/bv1.jpg">
+                            </div>
+                            <div class="tin">
+                                <p>23-05-2022</p>
+                                <a href="#">Top 7 điện thoại 5G giá rẻ nhất 2022, hiệu năng mạnh, kết nối nhanh và ổn định.</a> <br>
+                                <i class="far fa-heart"></i> <i class="far fa-comment"></i>
+                            </div>
+                        </div>
+                        <div class="bv2">
+                            <div class="ha">
+                                <img src="image/bv2.jpg">
+                            </div>
+                            <div class="tin">
+                                <p>23-05-2022</p>
+                                <a href="#">Mới nhất về iPhone 14: Dự kiến ra mắt vào 13/9, 6GB RAM cho mọi phiên bản, không còn "tai thỏ", nâng cấp lớn cho camera trước.</a> <br>
+                                <i class="far fa-heart"></i> <i class="far fa-comment"></i>
+                            </div>
+                        </div>
+
+                        <div class="bv3">
+                            <div class="ha">
+                                <img src="image/bv3.png">
+                            </div>
+                            <div class="tin">
+                                <p>23-05-2022</p>
+                                <a href="#">iOS 16 chính thức trình làng: Đại tu màn hình khóa, cải tiến lớn iMessages và hơn thế nữa.</a> <br>
+                                <i class="far fa-heart"></i> <i class="far fa-comment"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tintuc1">
+                        <h2>Tin tức</h2>
+                        <div class="tt1">
+                            <div class="ha">
+                                <img src="/image/tt2.webp">
+                            </div>
+                            <div class="tin">
+                                <p>25-05-2022</p>
+                                <a href="#">Tuyệt chiêu đón hè cực “chill” cùng hệ sinh thái Galaxy.</a> <br>
+                                <i class="fas fa-newspaper"></i> <i class="fas fa-rss"></i>
+                            </div>
+                        </div>
+                        <div class="tt2">
+                            <div class="ha">
+                                <img src="/image/tt3.jpg">
+                            </div>
+                            <div class="tin">
+                                <p>25-05-2022</p>
+                                <a href="#">Lộ diện thêm điện thoại 5G giá rẻ mới của Samsung</a> <br>
+                                <i class="fas fa-newspaper"></i> <i class="fas fa-rss"></i>
+                            </div>
+                        </div>
+
+                        <div class="tt3">
+                            <div class="ha">
+                                <img src="/image/tt4.jpg">
+                            </div>
+                            <div class="tin">
+                                <p>25-05-2022</p>
+                                <a href="#">Sắp có hàng loạt điện thoại Vivo giá "mềm" trình làng</a> <br>
+                                <i class="fas fa-newspaper"></i> <i class="fas fa-rss"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tongchan">
+                <footer>
+                    <section class="chan1">
+                        <div class="footer1">
+                            <h3>Hỗ trợ khách hàng</h3>
+                            <p>Hotline: <a href="">03485475</a> <br>
+                                (1000đ/phút, 8-21h kể cả T7, CN)
+                            </p>
+                            <p>Các câu hỏi thường gặp</p>
+                            <p>Gửi yêu cầu hỗ trợ</p>
+                            <p>Hướng dẫn đặt hàng</p>
+                            <p>Phương thức vận chuyển</p>
+                            <p>Chính sách đổi trả</p>
+                            <p>Hướng dẫn trả góp</p>
+                            <p>Chính sách hàng nhập khẩu</p>
+                        </div>
+
+                        <div class="footer2">
+                            <h3>Về chúng tôi</h3>
+                            <p>Giới thiệu</p>
+                            <p>Tuyển dụng</p>
+                            <p>Chính sách bảo mật thanh toán</p>
+                            <p>Chính sách bảo mật thông tin cá nhân</p>
+                            <p>Chính sách giải quyết khiếu nại</p>
+                            <p>Điều khoản sử dụng</p>
+                            <p>Điều kiện vận chuyển</p>
+
+                        </div>
+
+                        <div class="footer3">
+                            <h3>Hợp tác và liên kết</h3>
+                            <p>Quy chế hoạt động Sàn GDTMĐT</p>
+                            <br>
+                            <br>
+                            <h4>Chứng nhận bởi</h4>
+                            <img src="image/bct.png" alt="">
+                        </div>
+
+                        <div class="footer4">
+                            <h3>Phương thức thanh toán</h3>
+                            <img src="image/momo.png" alt="" width="30px" height="30px">
+                            <img src="image/visa.png" alt="" width="100px" height="30px">
+                            <img src="image/viettel.png" alt="" width="30px" height="30px">
+                            <img src="image/zalopay1.png" alt="" width="30px" height="30px">
+                            <img src="image/tng.jpg" alt="" width="30px" height="30px">
+                            <br>
+                            <h3>Liên kết với chúng tôi</h3>
+                            <img src="image/fb.png" alt="">
+                            <img src="image/zalo1.jpg" alt="">
+                            <img src="image/inter1.jpg" alt="">
+                        </div>
+
+                    </section>
+
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
